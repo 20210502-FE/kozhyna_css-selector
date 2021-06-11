@@ -1,13 +1,53 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <title>CSS Dinner Shopping List</title>
 </head>
+
 <body>
-<header></header>
-<main></main>
+<div class="wrapper">
+    <header class="header">
+        <h1>CSS Dinner Shopping List</h1>
+        <h3>Let's go to the mall!</h3>
+    </header>
+    <main class="content">
+        <ul class="content__list">
+            <li class="content__list-item">
+                <input type="checkbox" id="content__item-1">
+                <label for="content__item-1">A lot of pickles <span
+                        class="content__extra-text">for the next lessons about CSS</span></label>
+            </li>
+            <li class="content__list-item">
+                <input type="checkbox" id="content__item-2">
+                <label for="content__item-2">10 apples <span class="content__extra-text">for more CSS manipulations</span></label>
+            </li>
+            <li class="content__list-item">
+                <input type="checkbox" id="content__item-3">
+                <label for="content__item-3">20 oranges <span class="content__extra-text">because they are awesome</span></label>
+            </li>
+            <li class="content__list-item">
+                <input type="checkbox" id="content__item-4">
+                <label for="content__item-4">13 plates <span
+                        class="content__extra-text">hm... they always disappear</span></label>
+            </li>
+            <li class="content__list-item">
+                <input type="checkbox" id="content__item-5">
+                <label for="content__item-5">15 bentos</label>
+            </li>
+            <li class="content__list-item">
+                <input type="checkbox" id="content__item-6">
+                <label for="content__item-6">1 bottle of Sake ^_^ <span class="content__extra-text">for my friends</span></label>
+            </li>
+        </ul>
+        <div class="content__greetings">Bon appetit :)</div>
+    </main>
+</div>
 </body>
+
 </html>
